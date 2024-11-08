@@ -1,0 +1,20 @@
+﻿BasedOnStyle: LLVM
+
+# Writing short expressions on one line is preferable
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortBlocksOnASingleLine: Always
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortLambdasOnASingleLine: All
+
+IndentPPDirectives: AfterHash
+
+AlwaysBreakTemplateDeclarations: true
+
+# The LLVM standard says to use 2 spaces, but this code prefers 4 spaces
+TabWidth: 4
+IndentWidth: 4
+AccessModifierOffset: -4
+
+Standard: c++20
