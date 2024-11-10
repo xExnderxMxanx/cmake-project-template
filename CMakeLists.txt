@@ -14,6 +14,8 @@ project(cmake_project_template
 include(CompilerOptions)
 include(VCPKGOptions)
 
+include(FindQt)
+
 include(Messages)
 
 add_subdirectory(src)
