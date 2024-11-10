@@ -5,6 +5,10 @@ add_subdirectory(lib)
 
 add_subdirectory(core)
 
-if (BUILD_TESTS)
+if(BUILD_GUI)
+    add_subdirectory(gui)
+endif()
+
+if(BUILD_TESTS)
     add_subdirectory(test)
-endif ()
+endif()
